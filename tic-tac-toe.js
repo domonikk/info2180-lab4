@@ -11,8 +11,8 @@ window.onload = function(){
     let game=documemnt.getElementById("game"); 
 
     // Adding squares to each div
-    let mydiv=document.getElementsByTagName("div")[0]; 
-    this.console.log(mydiv);
-    mydiv.classList.add('square');
+    //let mydiv=document.getElementsByTagName("div")[0]; 
+    //this.console.log(mydiv);
+    board.classList.add('square');
 
-} 
+};
