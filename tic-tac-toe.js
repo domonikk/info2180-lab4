@@ -15,7 +15,8 @@ window.onload = function(){
        var value;
 
         //for (var i=0; i<=9; i++){ 
-       value=myboard.innerHTML=".square.X";  
+       value=myboard.innerHTML=".square.X";   
+       console.log(value);
         //    if (value===mark){
         //        marksquare.push(i);
         //    }else{
