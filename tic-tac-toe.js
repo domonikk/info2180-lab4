@@ -1,5 +1,3 @@
-"use strict"; 
-//JavaScript Code 
 
 window.onload = function(){  
     var body=document.getElementsByTagName("body"); 
@@ -11,14 +9,16 @@ window.onload = function(){
     let game =documemnt.getElementById("game"); 
     
 
-    // Adding squares to each div
-    let mydiv=document.querySelectorAll("div.board");
-    mydiv.className='sqaure'; 
-    this.console.log(mydiv.className);  
-    this.console.log(board);
-
+    // Adding squares to each div 
+    function squares(){ 
+        let mydiv=document.querySelectorAll("div.board");
+        mydiv.className='sqaure'; 
+        this.console.log(mydiv.className);  
+        this.console.log(board);
+    }
+    
 
     //
     var gamestate=[];
     
-};
+}
