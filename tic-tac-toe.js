@@ -5,10 +5,9 @@ window.onload = function(){
     console.log(body); 
 
     // Adding squares to each div  
-    function squares (){ 
-      var myboard= document.getElementById("board");
-      myboard.forEach(i => {i.className="square"}); 
-    }
+
+    var myboard= document.getElementById("board");
+    myboard.forEach(i => {i.className="square"}); 
 
 
     
