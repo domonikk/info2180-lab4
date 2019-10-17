@@ -1,7 +1,8 @@
 
+
 window.onload = function(){  
     var body=document.getElementsByTagName("body"); 
-    this.console.log(body);
+    console.log(body); 
 
     //
     let board =document.getElementById("board");
@@ -11,10 +12,12 @@ window.onload = function(){
 
     // Adding squares to each div 
     function squares(){ 
-        let mydiv=document.querySelectorAll("div.board");
-        mydiv.className='sqaure'; 
-        this.console.log(mydiv.className);  
-        this.console.log(board);
+        var mydiv=document.querySelectorAll("div.board");  
+        mydiv.classList.add('sqaure'); 
+        console.log(mydiv);
+        //mydiv.className='sqaure'; 
+        //console.log(mydiv.className);  
+        //console.log(board);
     }
     
 
