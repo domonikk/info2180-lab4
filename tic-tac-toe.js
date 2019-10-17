@@ -11,7 +11,8 @@ window.onload = function(){
   
     function marksquare (marker){ 
         var marksquare=[]; 
-        var value;
+        var value; 
+        myboard.click();
         for ( var i=0; i<squarecount; i++){ 
             value=myboard.innerHTML.className=".square.x";
             if(value === marker){
