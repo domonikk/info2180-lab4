@@ -6,10 +6,5 @@ window.onload = function(){
 
     // Adding squares to each div 
     var myboard= document.getElementById("board").className="square";
-
-    
-
-    //
-    var gamestate=[];
     
 }
