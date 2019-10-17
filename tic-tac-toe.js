@@ -6,7 +6,7 @@ window.onload = function(){
 
     // Adding squares to each div 
     var myboard= document.getElementById("board").querySelectorAll("div");
-    myboard.forEach(i=>{i.classList.add("square")});
+    myboard.forEach(i=>{i.className="square";});
 
 
 }
