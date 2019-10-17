@@ -13,6 +13,6 @@ window.onload = function(){
 
     // Adding squares to each div
     let mydiv=document.querySelectorAll("div.board");
-    mydiv.classList.add('square');
-
+    mydiv.className='sqaure'; 
+    this.console.log(mydiv.className);
 };
