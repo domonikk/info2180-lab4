@@ -10,7 +10,7 @@ window.onload = function(){
 
   
 
-    myboard.addEventListener(click,function(){
+    myboard.addEventListener("click",function(){
         //var marksquare=[];  
        var value;
 
