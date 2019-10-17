@@ -14,5 +14,11 @@ window.onload = function(){
     // Adding squares to each div
     let mydiv=document.querySelectorAll("div.board");
     mydiv.className='sqaure'; 
-    this.console.log(mydiv.className);
+    this.console.log(mydiv.className);  
+    this.console.log(board);
+
+
+    //
+    var gamestate=[];
+    
 };
