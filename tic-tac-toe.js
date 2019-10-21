@@ -11,15 +11,15 @@ window.onload = function(){
    // adding event to each element to display X and O 
     var element=document.getElementById("board").querySelectorAll("div");
 
-    element.onlclick=fucntion(){ 
-        e1=element[0].innerHTML="X";
-        e2=element[1].innerHTML="O"; 
-        e3=element[2].innerHTML="X";
-        e4=element[3].innerHTML="O"; 
-        e5=element[4].innerHTML="X";
-        e6=element[5].innerHTML="O"; 
-        e7=element[6].innerHTML="X";
-        e8=element[7].innerHTML="O"; 
-        e9=element[8].innerHTML="X";
-    };
+    element.onlclick= fucntion({  
+        e1=element[0].innerHTML="X",
+        e2=element[1].innerHTML="O",
+        e3=element[2].innerHTML="X",
+        e4=element[3].innerHTML="O",
+        e5=element[4].innerHTML="X",
+        e6=element[5].innerHTML="O",
+        e7=element[6].innerHTML="X",
+        e8=element[7].innerHTML="O",
+        e9=element[8].innerHTML="X",
+    });
 };
