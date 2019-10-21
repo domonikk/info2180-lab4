@@ -9,7 +9,7 @@ window.onload = function(){
     myboard.forEach(i=>{i.className="square";});
 
    // adding event to each element to display X and O 
-    let element=document.getElementsByClassName("square");
+    var element=document.getElementsByClassName("square");
 
     element.onlclick= function(){  
         e1=element[0].innerHTML="X";
@@ -21,8 +21,9 @@ window.onload = function(){
         e7=element[6].innerHTML="X";
         e8=element[7].innerHTML="O";
         e9=element[8].innerHTML="X"; 
-        console.log("a click");
-    } 
+    }  
+    console.log("a click");
+
 
    
 };
