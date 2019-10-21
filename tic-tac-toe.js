@@ -11,7 +11,7 @@ window.onload = function(){
    // adding event to each element to display X and O 
     var element1=document.getElementById("board").querySelectorAll("div"); 
     var i; 
-    for (i=0, i<element1.length; i++){
+    for (i=0; i<element1.length;i++){
         var element2= element1[i]; 
     element2.onclick= function (){ 
         this.classList.add('X'); 
@@ -19,6 +19,5 @@ window.onload = function(){
         console.log("a click");
     }
     }
-    
 
 };
