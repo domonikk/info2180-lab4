@@ -11,8 +11,9 @@ window.onload = function(){
    // adding event to each element to display X and O 
     var element=document.getElementsByClassName("square");
 
-    element.onlclick= function(){  
-        e1=element[0].innerHTML="X";
+    element.onlclick = function(){  
+        e1=element[0].innerHTML="X"; 
+        console.log("a click");
         e2=element[1].innerHTML="O";
         e3=element[2].innerHTML="X";
         e4=element[3].innerHTML="O";
@@ -22,7 +23,7 @@ window.onload = function(){
         e8=element[7].innerHTML="O";
         e9=element[8].innerHTML="X"; 
     }  
-    console.log("a click");
+    
 
 
    
