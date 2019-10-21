@@ -9,9 +9,9 @@ window.onload = function(){
     myboard.forEach(i=>{i.className="square";});
 
    // adding event to each element to display X and O 
-     var element=document.getElementById("board").querySelectorAll("div").innerHTML; 
+     var element=document.getElementById("board").querySelectorAll("div");
 
-     element.addEventListener("mouseover",function(){ 
+     element.onlclick=fucntion(){ 
          e1=element[0];
          e2=element[1]; 
          e3=element[2];
@@ -21,7 +21,7 @@ window.onload = function(){
          e7=element[6];
          e8=element[7];
          e9=element[8];
-     }); 
+        }; 
 
      
 
