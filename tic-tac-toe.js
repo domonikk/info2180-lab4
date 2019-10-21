@@ -8,22 +8,14 @@ window.onload = function(){
     var myboard= document.getElementById("board").querySelectorAll("div");
     myboard.forEach(i=>{i.className="square";});
 
-  
+  // adding event to each element to display X and O 
+   myboard.addEventListener("click",function(){ 
+       e1=myboard[0];
+       e2=myboard[1];
 
-    myboard.addEventListener("click",function(){
-        //var marksquare=[];  
-       var value;
+       element.addEventListener("click",e1,e2);   
+   };
 
-        //for (var i=0; i<=9; i++){ 
-       value=myboard.innerHTML=".square.X";   
-       console.log(value);
-        //    if (value===mark){
-        //        marksquare.push(i);
-        //    }else{
-         //       value=myboard.innerHTML=".square.O";
-         //       marksquare.push(i);
-         //   }
 
-       // }
-    });
+ 
 }
