@@ -13,7 +13,7 @@ window.onload = function(){
 
 
 
-    e1=element1[0].onclick = function(){ 
+    element1[0].onclick = function(){ 
         element1[0].innerHTML="X"; 
         console.log("a click");   
     } 
