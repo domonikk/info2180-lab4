@@ -11,7 +11,7 @@ window.onload = function(){
    // adding event to each element to display X and O 
      var element=document.getElementById("board"); 
 
-     element.addEventListener("click",function(){ 
+     element.addEventListener("mouseover",function(){ 
          e1=element[0];
          e2=element[1]; 
          e3=element[2];
@@ -24,6 +24,9 @@ window.onload = function(){
      }); 
 
      
+
+
+
 
      
 
