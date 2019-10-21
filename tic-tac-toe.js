@@ -12,16 +12,17 @@ window.onload = function(){
     var element=document.getElementsByClassName("square");
 
     element.onlclick = function(){  
-        e1=element[0].innerHTML="X"; 
+        element[0].innerHTML="X"; 
         console.log("a click");
-        e2=element[1].innerHTML="O";
-        e3=element[2].innerHTML="X";
-        e4=element[3].innerHTML="O";
-        e5=element[4].innerHTML="X";
-        e6=element[5].innerHTML="O";
-        e7=element[6].innerHTML="X";
-        e8=element[7].innerHTML="O";
-        e9=element[8].innerHTML="X"; 
+        element[1].innerHTML="O"; 
+        console.log("a click");
+        element[2].innerHTML="X";
+        element[3].innerHTML="O";
+        element[4].innerHTML="X";
+        element[5].innerHTML="O";
+        element[6].innerHTML="X";
+        element[7].innerHTML="O";
+        element[8].innerHTML="X"; 
     }  
     
 
