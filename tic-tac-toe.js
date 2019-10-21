@@ -12,16 +12,13 @@ window.onload = function(){
     var element1= document.getElementsByClassName("square"); 
 
 
-    element1.forEach(i=>{ 
-        element1[i].onclick = function(){ 
-            element1[i].innerHTML="X"; 
-            console.log("a click");  
-            if (element1[i]=== "X"){
-                i++; 
-                element[i].innerHTML="O";
-                console.log("a click");
-            }
-        }
-    })
+
+    element1[i].onclick = function(){ 
+        element1[i].innerHTML="X"; 
+        console.log("a click");  
+        i++; 
+        element1[i].innerHTML="O"; 
+        console.log("a click"); 
+    }
     
 };
