@@ -21,5 +21,5 @@ window.onload = function(){
         e7=element[6].innerHTML="X";
         e8=element[7].innerHTML="O"; 
         e9=element[8].innerHTML="X";
-    }
+    };
 };
