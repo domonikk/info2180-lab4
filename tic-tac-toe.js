@@ -12,6 +12,7 @@ window.onload = function(){
     var element1= document.getElementsByClassName("square");
 
     element1.onclick = function(){  
+        var i;
         element1[0].innerHTML="X"; 
         console.log("a click");
     };  
