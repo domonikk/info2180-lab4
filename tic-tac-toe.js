@@ -12,7 +12,7 @@ window.onload = function(){
     let element=document.getElementById("board").querySelectorAll("div");
 
     element.onlclick= function(){  
-        e1=element[0].innerHTML="X";
+        e1=element[0].classList.add("X");
         e2=element[1].innerHTML="O";
         e3=element[2].innerHTML="X";
         e4=element[3].innerHTML="O";
@@ -21,5 +21,7 @@ window.onload = function(){
         e7=element[6].innerHTML="X";
         e8=element[7].innerHTML="O";
         e9=element[8].innerHTML="X";
-    }
+    } 
+
+    e1.innerHTML="X"
 };
