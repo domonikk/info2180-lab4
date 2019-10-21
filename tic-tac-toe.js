@@ -9,12 +9,14 @@ window.onload = function(){
     myboard.forEach(i=>{i.className="square";});
 
   // adding event to each element to display X and O 
-  // myboard.addEventListener("click",function(){ 
-   //    e1=myboard[0];
-   //    e2=myboard[1];
+    myboard.addEventListener("click",function(){ 
+       e1=myboard[0];
+       e2=myboard[1]; 
+    } 
 
-     //  element.addEventListener("click",e1,e2);   
-   
+    e1.className=".square.X";
+
+     
 
 
  
