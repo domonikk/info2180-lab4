@@ -13,12 +13,9 @@ window.onload = function(){
 
 
 
-    element1[i].onclick = function(){ 
-        element1[i].innerHTML="X"; 
-        console.log("a click");  
-        i++; 
-        element1[i].innerHTML="O"; 
-        console.log("a click"); 
-    }
+    e1=element1[0].onclick = function(){ 
+        element1[0].innerHTML="X"; 
+        console.log("a click");   
+    } 
     
 };
