@@ -9,10 +9,19 @@ window.onload = function(){
     myboard.forEach(i=>{i.className="square";});
 
    // adding event to each element to display X and O 
-    var element1= document.getElementsByClassName("square");
+    var element1= document.getElementsByClassName("square"); 
 
-    element1[0].onclick = function(){  
-        element1[0].innerHTML="X"; 
-        console.log("a click");
-    }
+
+    element1.forEach(i=>{ 
+        element1[i].onclick = function(){ 
+            element1[i].innerHTML="X"; 
+            console.log("a click");  
+            if (element1[i]=== "X"){
+                i++; 
+                element[i].innerHTML="O";
+                console.log("a click");
+            }
+        }
+    })
+    
 };
